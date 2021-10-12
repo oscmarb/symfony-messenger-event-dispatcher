@@ -1,0 +1,22 @@
+{
+  "name": "oscmarb/symfony-messenger-event-dispatcher",
+  "authors": [
+    {
+      "name": "Óscar Martínez Benítez",
+      "email": "oscmarb@gmail.com"
+    }
+  ],
+  "description": "Symfony messenger event dispatcher",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "oscmarb/ddd-cqrs": "^1.0",
+    "oscmarb/symfony-messenger-bus": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oscmarb\\SymfonyMessengerEventDispatcher\\": "src/"
+    }
+  }
+}
